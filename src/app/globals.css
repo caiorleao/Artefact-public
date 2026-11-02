@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  background: #f3f3f3;
+  font-family: system-ui, sans-serif;
+  line-height: 1.45;
+}
+
+a {
+  color: #1a4d8c;
+}
+
+.wrap {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 1rem 3rem;
+}
+
+.top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.card h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.card p {
+  margin: 0 0 0.4rem;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.banner {
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+}
+
+.banner.ok {
+  background: #e7f4e8;
+  border-color: #b7d7b9;
+}
+
+.banner.err {
+  background: #fdecec;
+  border-color: #e2b6b6;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.85rem;
+}
+
+label span {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid #aaa;
+  font: inherit;
+}
+
+textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+button,
+.btn {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #888;
+  background: #fff;
+  color: #222;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+button.danger {
+  border-color: #a44;
+  color: #822;
+}
+
+.more {
+  padding: 1rem 0;
+  text-align: center;
+  color: #666;
+}
